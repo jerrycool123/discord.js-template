@@ -1,12 +1,12 @@
 import { Client } from 'discord.js';
 
 import Env from './libs/env';
-import dbConnect from './libs/mongodb';
+// import dbConnect from './libs/mongodb';
 import { registerBotEvents, registerBotRoutines } from './libs/register';
 import { requiredIntents, showCustomConfig } from './config';
 
 // Connect to MongoDB
-dbConnect();
+// dbConnect();
 
 // Create a new client instance
 const client = new Client({ intents: requiredIntents });

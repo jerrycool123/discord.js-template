@@ -1,0 +1,22 @@
+{
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  "files.exclude": {
+    "build/": true,
+    "node_modules/": true
+  },
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders",
+    "package.json",
+    ".prettierrc",
+    ".prettierignore",
+    ".eslintrc",
+    ".eslintignore",
+    "yarn.lock"
+  ]
+}
